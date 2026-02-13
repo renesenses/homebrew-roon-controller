@@ -1,8 +1,8 @@
 cask "roon-controller" do
-  version "1.0.1"
-  sha256 "90203d500e826b3331cae9ead7ce07fa652ab92a03c6a430e583a7c5620fd2f3"
+  version "1.0.2"
+  sha256 "82ae6b3741fe2897c55abcbbd7dbc3d88f66fb9d2ccaf90482fcf500ba6538f9"
 
-  url "https://github.com/renesenses/roon-controller/releases/download/v1.0.1/RoonController-beta.dmg"
+  url "https://github.com/renesenses/roon-controller/releases/download/v1.0.2/RoonController.dmg"
   name "Roon Controller"
   desc "Native macOS remote control for Roon"
   homepage "https://github.com/renesenses/roon-controller"
