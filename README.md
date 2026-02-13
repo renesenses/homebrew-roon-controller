@@ -1,6 +1,6 @@
 # Homebrew Tap — Roon Controller
 
-Tap Homebrew pour installer [Roon Controller](https://github.com/renesenses/roon-controller), une telecommande macOS native (SwiftUI) pour les systemes audio Roon.
+Tap Homebrew pour installer [Roon Controller](https://github.com/renesenses/roon-controller), un player macOS natif (SwiftUI) pour les systemes audio Roon, avec deux modes d'interface : **Player** (vue compacte) et **Roon** (layout complet avec sidebar, playlists et barre de transport).
 
 ## Installation
 
@@ -44,7 +44,7 @@ L'app n'est pas signee avec un Apple Developer ID :
 
 # Homebrew Tap — Roon Controller (English)
 
-Homebrew tap to install [Roon Controller](https://github.com/renesenses/roon-controller), a native macOS remote (SwiftUI) for Roon audio systems.
+Homebrew tap to install [Roon Controller](https://github.com/renesenses/roon-controller), a native macOS player (SwiftUI) for Roon audio systems, with two UI modes: **Player** (compact view) and **Roon** (full layout with sidebar, playlists and transport bar).
 
 ## Install
 
