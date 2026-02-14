@@ -1,6 +1,6 @@
 # Homebrew Tap — Roon Controller
 
-Tap Homebrew pour installer [Roon Controller](https://github.com/renesenses/roon-controller), un player macOS natif (SwiftUI) pour les systemes audio Roon, avec deux modes d'interface : **Player** (vue compacte) et **Roon** (layout complet avec sidebar, playlists et barre de transport).
+Tap Homebrew pour installer [Roon Controller](https://github.com/renesenses/roon-controller), un player macOS natif (SwiftUI) pour les systèmes audio Roon, avec deux modes d'interface : **Player** (vue compacte) et **Roon** (layout complet avec sidebar, playlists et barre de transport).
 
 ## Installation
 
@@ -9,20 +9,20 @@ brew tap renesenses/roon-controller
 brew install --cask roon-controller
 ```
 
-## Mise a jour
+## Mise à jour
 
 ```bash
 brew update
 brew upgrade --cask roon-controller
 ```
 
-## Desinstallation
+## Désinstallation
 
 ```bash
 brew uninstall --cask roon-controller
 ```
 
-Pour supprimer egalement les preferences :
+Pour supprimer également les préférences :
 
 ```bash
 brew uninstall --cask --zap roon-controller
@@ -30,15 +30,19 @@ brew uninstall --cask --zap roon-controller
 
 ## Premier lancement
 
-L'app n'est pas signee avec un Apple Developer ID :
+L'app n'est pas signée avec un Apple Developer ID :
 
-1. Clic droit sur l'app > **Ouvrir** pour contourner Gatekeeper
-2. Dans Roon, aller dans **Parametres > Extensions** et autoriser **Roon Controller macOS**
+1. Supprimez l'attribut de quarantaine :
+   ```bash
+   xattr -d com.apple.quarantine "/Applications/Roon Controller.app"
+   ```
+2. Ou bien : clic droit sur l'app > **Ouvrir** pour contourner Gatekeeper
+3. Dans Roon, aller dans **Paramètres > Extensions** et autoriser **Roon Controller macOS**
 
-## Pre-requis
+## Pré-requis
 
-- macOS 15.0 (Sequoia) ou plus recent
-- Un Roon Core accessible sur le reseau local
+- macOS 15.0 (Sequoia) ou plus récent
+- Un Roon Core accessible sur le réseau local
 
 ---
 
@@ -76,8 +80,12 @@ brew uninstall --cask --zap roon-controller
 
 The app is not signed with an Apple Developer ID:
 
-1. Right-click the app > **Open** to bypass Gatekeeper
-2. In Roon, go to **Settings > Extensions** and authorize **Roon Controller macOS**
+1. Remove the quarantine attribute:
+   ```bash
+   xattr -d com.apple.quarantine "/Applications/Roon Controller.app"
+   ```
+2. Or: right-click the app > **Open** to bypass Gatekeeper
+3. In Roon, go to **Settings > Extensions** and authorize **Roon Controller macOS**
 
 ## Requirements
 
